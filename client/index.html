@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CSV Report Generator</title>
+  <link href="main.css" rel="stylesheet">
+</head>
+<body>
+<form action="/">
+  <label for="file">Choose a .json file:</label>
+  <input type="file" id="file" name="file" accept="application/json">
+  <button type="button" id="submit">Submit</button>
+</form>
+<p id="error"></p>
+<textarea id="csv"></textarea>
+<form action="/latest">
+  <button>Download latest file</button>
+</form>
+<script type="text/javascript" src="app.js"></script>
+</body>
+</html>

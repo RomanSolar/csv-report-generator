@@ -1,0 +1,21 @@
+form {
+    display: flex;
+    flex-direction: column;
+    width: max-content;
+    text-align: center;
+}
+
+input, button {
+    margin-top: 0.5em;
+}
+
+#error {
+    color: red;
+}
+
+textarea {
+    width: 100% !important;
+    margin-right: 1em;
+    box-sizing: border-box;
+    resize: none;
+}

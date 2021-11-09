@@ -1,0 +1,11 @@
+{
+  "name": "challenge_2",
+  "version": "1.0.0",
+  "main": "server.js",
+  "repository": "https://github.com/jnbooth/hr-rfp56-mini-apps-1",
+  "author": "Joshua Booth",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
